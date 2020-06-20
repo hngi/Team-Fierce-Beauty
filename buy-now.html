@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="/beauty.css">
     <title>Buy Now!</title>
 </head>
-<body>
+<body onload="loadPage()">
     <!------------------------------------------ HEADER-------------------------------->
 
 
@@ -14,7 +14,12 @@
 
 
     <!------------------------------------------ MAIN---------------------------------->
-
+<div class="buy-now-container">
+    <h1>404</h1>
+    <p> The Page You Requested Could Not Be Found</p>
+    <a href="home.html">Go To Homepage</a>    
+</div>
+        
 
 
 
@@ -23,6 +28,13 @@
     <!------------------------------------------ FOOTER-------------------------------->
 
 
+
+<script>
+    function loadPage(){
+      alert(" Page not Found");
+    }
+</script>
+    
     <script src="/beauty.js"></script>
 </body>
 </html>
