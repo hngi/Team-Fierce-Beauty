@@ -3,7 +3,79 @@
                     HOME STARTS HERE
 
 ******************************************************/
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
 
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+nav.navbar.navbar-expand-sm{
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45));
+    position: absolute;
+    width: 100%;
+}
+nav, a{
+    color: #ffffff;
+  }
+  
+  a:hover{
+    color: gray;
+  }
+
+.index-header{
+  min-height: 70vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.4)), url("images/girl-.png");
+  background-repeat:no-repeat;
+  background-position:center;  
+  color: #ffffff;
+}
+
+.sub-head{
+    min-height: 50vh;
+    font-size: 30px;
+}
+
+.sub-head p{
+    max-width: 35em;
+}
+
+.btn{
+    border-radius: 0;
+    background-color: #000000;
+}
+
+.card{
+    border: 0px;
+}
+
+.card img{
+    height: 20em!important;
+}
+
+.b-f{
+    min-height: 50vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("images/girl-.png");
+    color: #ffffff;
+    background-repeat:no-repeat;
+    background-position:center;
+   
+}
+.b-f p {
+    max-width: 15em;
+}
+
+@media only screen and (max-width: 600px) {
+    .gallery img {
+        max-width: 100%;
+        height: auto;
+        width: auto\9; /* ie8 */
+    }
+  }
+@media only screen and (min-width: 800px) {
+    div.container {
+        flex-flow: column;
+    }
+}
 
 
 /******************************************************
