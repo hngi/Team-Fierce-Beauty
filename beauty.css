@@ -72,6 +72,18 @@ nav, a{
         width: auto\9; /* ie8 */
     }
 
+    .l-info{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+
+    .r-info{
+        display: flex;
+        justify-content: center;
+    }
+
     .footer div.row{
         display: flex;
         justify-content: center;
