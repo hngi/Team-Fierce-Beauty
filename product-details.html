@@ -1,262 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>PRODUCT DETAILS PAGE</title>
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
-      rel="stylesheet"
-    />
-    <link href="./product-details.css" rel="stylesheet" />
-  </head>
-  <body>
-    <!-- NAVIGATION -->
-    <div class="top-image text-nowrap">
-      <div class="overlay"></div>
-      <div class="top-image-content">
-        <i class="fas fa-bars fa-2x" id="hamburger"></i>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/beauty.css">
+    <title>Product-details</title>
+</head>
+<body>
+    <!------------------------------------------ HEADER-------------------------------->
 
-        <a href="#" id="logo">
-          <h1 class="h2 text-center">Vogue Styles</h1>
-        </a>
 
-        <div class="full-nav row">
-          <div class="nav-links col-11">
-            <div class="left-nav">
-              <a href="" class="top-link">Suppliers</a>
-              <a href="" class="top-link">Investors and Shareholders</a>
-            </div>
-            <div class="right-nav">
-              <a href="" class="top-link">Accessibility</a>
-              <a href="" class="top-link">Location</a>
-            </div>
-          </div>
 
-          <div class="icon-links col-1 row">
-            <div class="dropdown">
-              <a
-                class="btn btn-sm btn-secondary dropdown-toggle"
-                href="#"
-                role="button"
-                id="dropdownMenuLink"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                EN
-              </a>
 
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                <a class="dropdown-item" href="#">FR</a>
-                <a class="dropdown-item" href="#">ES</a>
-                <a class="dropdown-item" href="#">US</a>
-              </div>
-            </div>
 
-            <i
-              class="fas fa-search align-self-center"
-              id="search-icon"
-            ></i>
-          </div>
+    <!------------------------------------------ MAIN---------------------------------->
 
-          <div class="top-icons ml-auto">
-            <i class="fas fa-shopping-cart fa-2x"></i>
-            <i class="fas fa-bars fa-2x"></i>
-          </div>
-        </div>
 
-        <div class="overlay-text">
-          <p class="lead">UP TO 25% OFF SELECTED PRODUCTS</p>
-          <a href="#" class="btn btn-outline-light btn-lg">SHOP NOW</a>
-        </div>
-      </div>
-    </div>
 
-    <!-- BEST SELLERS SECTION -->
-    <div class="container-fluid padding" id="best-sellers">
-      <h2>Best Sellers</h2>
 
-      <div class="bestseller-cards mt-3">
-        <div class="card-div">
-          <div class="img-div">
-            <img src="./images/NoPath - Copy.png" alt="" />
-          </div>
-          <div class="text-div">
-            <p>The Ordinary</p>
-            <p><span>$</span>18<span>.99</span></p>
-          </div>
-        </div>
 
-        <div class="card-div">
-          <div class="img-div">
-            <img src="./images/NoPath - Copy (5).png" alt="" />
-          </div>
-          <div class="text-div">
-            <p>Aveeno</p>
-            <p><span>$</span>18<span>.99</span></p>
-          </div>
-        </div>
+    
+    <!------------------------------------------ FOOTER-------------------------------->
 
-        <div class="card-div">
-          <div class="img-div">
-            <img src="./images/NoPath - Copy (9).png" alt="" />
-          </div>
-          <div class="text-div">
-            <p>CocoOil</p>
-            <p><span>$</span>18<span>.99</span></p>
-          </div>
-        </div>
-      </div>
 
-      <div class="row mt-5 dots">
-        <div class="col-1 dot active"></div>
-        <div class="col-1 dot"></div>
-        <div class="col-1 dot"></div>
-      </div>
-      <hr class="my-4" />
-    </div>
-
-    <!-- BEST WEEKS SECTION -->
-    <div class="container-fluid padding" id="best-weeks">
-      <h2>Bests of the Week</h2>
-
-      <div class="best-weeks-cards mt-3">
-        <div class="card-weeks-div">
-          <div class="img-weeks-div">
-            <img src="./images/IMG_0642.png" alt="" />
-          </div>
-        </div>
-
-        <div class="card-weeks-div">
-          <div class="img-weeks-div">
-            <img src="./images/NoPath - Copy (12).png" alt="" />
-          </div>
-        </div>
-
-        <div class="card-weeks-div">
-          <div class="img-weeks-div">
-            <img src="./images/NoPath - Copy (2).png" alt="" />
-          </div>
-        </div>
-      </div>
-
-      <div class="row mt-5 dots">
-        <div class="col-1 dot active"></div>
-        <div class="col-1 dot"></div>
-        <div class="col-1 dot"></div>
-      </div>
-
-      <hr class="my-4" />
-    </div>
-
-    <!-- FAVORITES SECTION -->
-    <div class="container-fluid padding" id="favorites">
-      <h2>Our Favorites</h2>
-
-      <div class="favorites-cards mt-3">
-        <div class="card-div">
-          <div class="img-favorites-div">
-            <img src="./images/IMG_0645.png" alt="" />
-          </div>
-          <div class="text-div">
-            <p>St Barth Baby Oil</p>
-            <p><span>$</span>18<span>.99</span></p>
-          </div>
-        </div>
-
-        <div class="card-div">
-          <div class="img-favorites-div">
-            <img src="./images/IMG_0649.png" alt="" />
-          </div>
-          <div class="text-div">
-            <p>Clinique</p>
-            <p><span>$</span>18<span>.99</span></p>
-          </div>
-        </div>
-
-        <div class="card-div">
-          <div class="img-favorites-div">
-            <img src="./images/IMG_0647.png" alt="" />
-          </div>
-          <div class="text-div">
-            <p>Givenchy</p>
-            <p><span>$</span>18<span>.99</span></p>
-          </div>
-        </div>
-      </div>
-
-      <div class="row mt-5 dots">
-        <div class="col-1 dot active"></div>
-        <div class="col-1 dot"></div>
-        <div class="col-1 dot"></div>
-      </div>
-    </div>
-
-    <!-- FOOTER -->
-    <footer>
-      <div class="container-fluid padding-footer">
-        <div class="row">
-          <div class="col-12 col-md">
-            <h3>Vogue Styles</h3>
-            <p class="left-foot"><a href="#">Group</a></p>
-            <p class="left-foot"><a href="#">Brand & Product</a></p>
-            <p class="left-foot"><a href="#">Commitments</a></p>
-            <p class="left-foot"><a href="#">Technology</a></p>
-            <p class="left-foot"><a href="#">Research</a></p>
-          </div>
-
-          <div class="col-12 col-md pt-1">
-            <p class="contact">Reach us</p>
-            <p class="contact">+234-806-810-8356</p>
-          </div>
-
-          <div class="col-12 col-md pt-1">
-            <p><a href="#">Suppliers</a></p>
-            <p><a href="#">Investors & Shareholders</a></p>
-          </div>
-        </div>
-      </div>
-
-      <hr />
-
-      <div class="container-fluid padding-footer text-nowrap" id="sub-footer">
-        <div class="row align-items-center">
-          <div class="col-12 col-md">
-            <a href="#">Cookie settings</a>
-            <a href="#" class="pl-4">Terms of use</a>
-            <a href="#" class="pl-4">Privacy policy</a>
-          </div>
-
-          <div class="col-12 col-md text-center" id="social">
-            <p class="pr-3 my-auto">Stay in touch</p>
-            <div class="" id="icon-div">
-              <i class="fab fa-facebook-f fa-2x pr-1"></i>
-              <i class="fab fa-twitter fa-2x pr-1"></i>
-              <i class="fab fa-instagram fa-2x pr-1"></i>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-    <script>
-      document.querySelector('body').addEventListener('click', toggleNav);
-
-      function toggleNav(e) {
-          if (e.target.id === 'hamburger') {
-              let links = document.querySelector('.nav-links');
-              links.classList.toggle('nav-small');
-          }
-      }
-    </script>
-  </body>
+    <script src="/beauty.js"></script>
+</body>
 </html>
