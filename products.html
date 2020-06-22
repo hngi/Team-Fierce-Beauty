@@ -1,28 +1,301 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/beauty.css">
-    <title>Products</title>
-</head>
-<body>
-    <!------------------------------------------ HEADER-------------------------------->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="beauty.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
+    <title>Product</title>
+  </head>
+  <body>
+    <!------------------------------------------ Nav-------------------------------->
+    <!-- nav element -->
+    <nav class="navbar navbar-expand-sm">
+      <div class="container d-flex">
+        <img class="img-fluid vogue-logo" src="images/Vogue-Styles.svg" />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapsibleNavbar"
+        >
+          <i class="fa fa-bars" style="font-size: 36px; color: #ffffff;"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="products.html">Product</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="product-detail.html">Details</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="buy-now.html">Buy Now</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end of nav element -->
 
+    <!------------------------------------------ Nav---------------------------------->
 
+    <!-- header section -->
+    <header class="header">
+      <div class="container-fluid">
+        <div class="row height-max index-header d-flex align-items-end">
+          <div class="mx-auto">
+            <h1>Product</h1>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- End of header section -->
 
+    <!-- product section -->
+    <div class="wrapper">
+      <div class="container-fluid">
+        <div class="row p-5">
+          <!-- products - row-1 -begins here -->
+          <div class="py-5 pl-5 col-xl-4 col-lg-4 col-md-4 col-sm-12">
+            <img
+              class="img-responsive image-width img-alpharet"
+              src="./images/AlphaRet-Overnight-Cream-30ML-184x480 1.png"
+              alt="AlphaRet-Overnight-Cream"
+            />
+            <h2 class="my-3">Style AlphaRet</h2>
+          </div>
+          <div class="py-5 pl-5 col-xl-4 col-lg-4 col-md-4 col-sm-12">
+            <img
+              class="img-responsive image-width"
+              src="./images/A-Team-Duo-540x608.png"
+              alt="Team-Duo"
+            />
+            <h2 class="my-4">Vogue Duo kit</h2>
+          </div>
+          <div class="py-5 pl-5 col-xl-4 col-lg-4 col-md-4 col-sm-12">
+            <img
+              class="img-responsive image-width img-javander"
+              src="./images/bathe-body-wash_1024x1024@2x.png"
+              alt="bathe-body-wash"
+            />
+            <h2 class="my-3">Vogue Javander</h2>
+          </div>
 
-    <!------------------------------------------ MAIN---------------------------------->
+          <!-- row-1 ends here -->
+        </div>
 
+        <div class="row p-5">
+          <!-- products - row-2 -begins here -->
+          <div class="py-5 pl-5 col-xl-4 col-lg-4 col-md-4 col-sm-12">
+            <img
+              class="img-responsive image-width img-vogue-body-cream"
+              src="./images/FAVPNG_cream-packaging-and-labeling-euclidean-vector-cosmetics_HTWWV24e.png"
+              alt=""
+            />
+            <h2 class="my-3">Vogue Body Cream</h2>
+          </div>
+          <div class="py-5 pl-5 col-xl-4 col-lg-4 col-md-4 col-sm-12">
+            <img
+              class="img-responsive image-width img-scrub"
+              src="./images/Detoxifying-Scrub-Mask-184x480.png"
+              alt=""
+            />
+            <h2 class="my-3">Vogue Scrub Mask</h2>
+          </div>
+          <div class="py-5 pl-5 col-xl-4 col-lg-4 col-md-4 col-sm-12">
+            <img
+              class="img-responsive image-width"
+              src="./images//Group 6.png"
+              alt=""
+            />
+            <h2 class="my-3">Style Butter Scrub</h2>
+          </div>
 
+          <!-- row-2 ends here -->
+        </div>
 
+        <div class="row p-5">
+          <!-- products - row-3 -begins here -->
+          <div class="py-5 pl-5 col-xl-4 col-lg-4 col-md-4 col-sm-12">
+            <img
+              class="img-responsive image-width img-vogue-perfume"
+              src="./images/Even-Tone-Correcting-Serum-50ML-184x480.png"
+              alt=""
+            />
+            <h2 class="my-3">Vogue Perfume</h2>
+          </div>
+          <div class="py-5 pl-5 col-xl-4 col-lg-4 col-md-4 col-sm-12">
+            <img
+              class="img-responsive image-width img-style-get-kit"
+              src="./images/Instant-Effect-Gel-EYE-15ML-184x480.png"
+              alt=""
+            />
+            <h2 class="my-3">Style Gel kit</h2>
+          </div>
+          <div class="py-5 pl-5 col-xl-4 col-lg-4 col-md-4 col-sm-12">
+            <img
+              class="img-responsive image-width img-vogue-duo-kit"
+              src="./images/InterFuse-Intensive-Treatment-LINES-15ML-184x480.png"
+              alt=""
+            />
+            <h2 class="my-3">Vogue Duo kit</h2>
+          </div>
 
+          <!-- row-3 ends here -->
+        </div>
 
-    
+        <div class="row mb-5 p-5">
+          <!-- products - row-4 -begins here -->
+          <div class="py-5 pl-5 col-xl-4 col-lg-4 col-md-4 col-sm-12">
+            <img
+              class="img-responsive image-width img-vogue-sunbetter"
+              src="./images/sunbetter-Sheer-Stick-SCF-New-432x480-1.png"
+              alt=""
+            />
+            <h2 class="my-3">Vogue Sunbetter</h2>
+          </div>
+          <div class="py-5 pl-5 col-xl-4 col-lg-4 col-md-4 col-sm-12">
+            <img
+              class="img-responsive image-width img-vogue-primer"
+              src="./images/—Pngtree—beauty products bottle packaging_5082422.png"
+              alt=""
+            />
+            <h2 class="my-3">Vogue Primer</h2>
+          </div>
+          <div class="py-5 pl-5 col-xl-4 col-lg-4 col-md-4 col-sm-12">
+            <img
+              class="img-responsive image-width"
+              src="./images/kindpng_433931.png"
+              alt=""
+            />
+            <h2 class="my-3">Vogue Interfuse kit</h2>
+          </div>
+
+          <!-- row-4 ends here -->
+        </div>
+
+        <!-- image and text section  -->
+
+        <div class="row p-5 text-section">
+          <!-- products - row-5 -begins here -->
+          <div class="col-xl-4 col-lg-4 col-md-4 offset-md-1">
+            <img
+              class="img-responsive img-beauty"
+              src="./images/clean_beauty 2.png"
+              alt=""
+            />
+          </div>
+          <div class="my-5 col-xl-4 col-lg-4 col-md-4 offset-md-1">
+            <h2 class="beauty-h2">
+              GET THE BEST BEAUTY PRODUCT AT AN AFFORDABLE RATE
+            </h2>
+            <button type="button" class="btn btn-dark">Learn more</button>
+          </div>
+          <!-- row-5 ends here -->
+        </div>
+
+        <!-- image and text section  ends here-->
+      </div>
+      <!-- end wrapper -->
+    </div>
+
+    <!-- end of product section -->
+
     <!------------------------------------------ FOOTER-------------------------------->
+    <!-- footer -->
+    <footer class="footer py-5 bg-light">
+      <div class="container text-md-left">
+        <div class="row">
+          <div
+            class="slide col-10 col-md-6 mb-md-0 mb-3"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <h4 class="text-uppercase font-weight-bold">vogue styles</h4>
+            <ul class="list-unstyled">
+              <li>
+                Group
+              </li>
+              <li>
+                Brand & Product
+              </li>
+              <li>
+                Commitment
+              </li>
+              <li>
+                Technology
+              </li>
+              <li>
+                Reasearch
+              </li>
+              <li></li>
+            </ul>
+          </div>
+          <div
+            class="slide col-10 col-md-3 mb-md-0 mb-3"
+            data-aos="fade-up"
+            data-aos-delay="250"
+          >
+            <h6 class="text-uppercase">reach us</h6>
+            <ul class="list-unstyled">
+              <li>
+                <i class="fa fa-phone mr-5">+234-806-658-9021</i>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="footer-btn col-10 col-md-3 mt-md-0 mb-3 clearfix"
+            data-aos="fade-up"
+            data-aos-delay="250"
+          >
+            <h6 class="text-uppercase">Suppliers Investors & Shareholders</h6>
+            <h6 class="mt-5 mb-2">Stay in Touch</h6>
+            <i class="fa fa-facebook-square mx-2" style="font-size: 36px;"></i>
+            <i class="fa fa-twitter-square mx-2" style="font-size: 36px;"></i>
+            <i class="fa fa-instagram mx-2" style="font-size: 36px;"></i>
+          </div>
+          <!-- </div> -->
+        </div>
+      </div>
+      <!-- Copyright -->
+      <div
+        class="footer-copyright border border-bottom-0 border-right-0 border-left-0 text-left py-3"
+      ></div>
+      <div class="container d-flex flex-row footer-copyright">
+        <small class="text-muted pr-5">© 2020 Copyright:</small>
+        <small class="text-muted px-5">Terms of use</small>
+        <small class="text-muted px-5">Provacy Policy</small>
+      </div>
+      <!-- Copyright -->
+    </footer>
 
-
-    <script src="/beauty.js"></script>
-</body>
+    <script src="beauty.js"></script>
+    <script src="bootstrap/jquery-3.3.1.min.js"></script>
+    <script src="bootstrap/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
