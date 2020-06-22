@@ -16,67 +16,49 @@
   </head>
   <body>
     <!-- NAVIGATION -->
-    <div class="top-image text-nowrap">
-      <div class="overlay"></div>
+    <div class="top-image">
       <div class="top-image-content">
-        <i class="fas fa-bars fa-2x" id="hamburger"></i>
-
-        <a href="#" id="logo">
-          <h1 class="h2 text-center">Vogue Styles</h1>
-        </a>
-
-        <div class="full-nav row">
-          <div class="nav-links col-11">
-            <div class="left-nav">
-              <a href="" class="top-link">Suppliers</a>
-              <a href="" class="top-link">Investors and Shareholders</a>
-            </div>
-            <div class="right-nav">
-              <a href="" class="top-link">Accessibility</a>
-              <a href="" class="top-link">Location</a>
-            </div>
+        <nav class="navbar navbar-expand-lg d-md-flex flex-md-column">
+          <a class="navbar-brand" href="#">Vogue Styles</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars fa-2x navbar-toggler-icon"></i>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto text-nowrap">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pl-4" href="about.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pl-4" href="products.html">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pl-4" href="product-details.html">Details</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pl-4" href="gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pl-4" href="buy-now.html">Buy Now</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pl-4" href="contact.html">Contact</a>
+              </li>
+              
+            </ul>
           </div>
 
-          <div class="icon-links col-1 row">
-            <div class="dropdown">
-              <a
-                class="btn btn-sm btn-secondary dropdown-toggle"
-                href="#"
-                role="button"
-                id="dropdownMenuLink"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                EN
-              </a>
-
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                <a class="dropdown-item" href="#">FR</a>
-                <a class="dropdown-item" href="#">ES</a>
-                <a class="dropdown-item" href="#">US</a>
-              </div>
-            </div>
-
-            <i
-              class="fas fa-search align-self-center"
-              id="search-icon"
-            ></i>
+          <div class="overlay mt-5 text-center text-wrap">
+            <p class="lead">UP TO 25% OFF SELECTED PRODUCTS</p>
+            <a href="buy-now.html" class="btn btn-outline-light btn-lg mt-3" id="shopBtn">SHOP NOW</a>
           </div>
-
-          <div class="top-icons ml-auto">
-            <i class="fas fa-shopping-cart fa-2x"></i>
-            <i class="fas fa-bars fa-2x"></i>
-          </div>
-        </div>
-
-        <div class="overlay-text">
-          <p class="lead">UP TO 25% OFF SELECTED PRODUCTS</p>
-          <a href="#" class="btn btn-outline-light btn-lg">SHOP NOW</a>
-        </div>
+        </nav>
       </div>
     </div>
-
+    
     <!-- BEST SELLERS SECTION -->
     <div class="container-fluid padding" id="best-sellers">
       <h2>Best Sellers</h2>
@@ -248,15 +230,5 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-    <script>
-      document.querySelector('body').addEventListener('click', toggleNav);
-
-      function toggleNav(e) {
-          if (e.target.id === 'hamburger') {
-              let links = document.querySelector('.nav-links');
-              links.classList.toggle('nav-small');
-          }
-      }
-    </script>
   </body>
 </html>

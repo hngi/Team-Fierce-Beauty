@@ -1,56 +1,57 @@
 /******************************************************
-
                     HOME STARTS HERE
-
 ******************************************************/
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
 
-body{
-    font-family: 'Roboto', sans-serif;
+body {
+  font-family: 'Roboto', sans-serif;
 }
 
-nav.navbar.navbar-expand-sm{
-    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45));
-    position: absolute;
-    width: 100%;
+nav.navbar.navbar-expand-sm {
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45));
+  position: absolute;
+  width: 100%;
 }
-nav, a{
-    color: #ffffff;
-  }
-  
-  a:hover{
-    color: gray;
-  }
-
-.index-header{
-  min-height: 70vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.4)), url("images/girl-.png");
-  background-repeat:no-repeat;
-  background-position:center;  
+nav,
+a {
   color: #ffffff;
 }
 
-.sub-head{
-    min-height: 50vh;
-    font-size: 30px;
+a:hover {
+  color: gray;
 }
 
-.sub-head p{
-    max-width: 35em;
+.index-header {
+  min-height: 70vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.4)),
+    url('images/girl-.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #ffffff;
 }
 
-.btn{
-    border-radius: 0;
-    background-color: #000000;
+.sub-head {
+  min-height: 50vh;
+  font-size: 30px;
 }
 
-.card{
-    border: 0px;
+.sub-head p {
+  max-width: 35em;
 }
 
-.card img{
-    height: 20em!important;
+.btn {
+  border-radius: 0;
+  background-color: #000000;
 }
+
+.card {
+  border: 0px;
+}
+
+.card img {
+  height: 20em !important;
+}
+
 
 .b-f{
     min-height: 50vh;
@@ -93,24 +94,51 @@ nav, a{
     .brand img{
         width: 12em;
     }
-  }
-@media only screen and (min-width: 800px) {
-    div.container {
-        flex-flow: column;
-    }
+
+.b-f {
+  min-height: 50vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.75)),
+    url('images/Screenshot_20200622-114938.png');
+  color: #ffffff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.b-f p {
+  max-width: 15em;
+  font-size: 40px;
 }
 
+@media only screen and (max-width: 600px) {
+  .gallery img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+
+  }
+
+  .footer div.row {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .brand img {
+    width: 12em;
+  }
+}
+@media only screen and (min-width: 800px) {
+  div.container {
+    flex-flow: column;
+  }
+}
 
 /******************************************************
+
 
                     HOME STOPS HERE
 
 ******************************************************/
-
-
-
-
-
 
 /******************************************************
 
@@ -118,18 +146,11 @@ nav, a{
 
 ******************************************************/
 
-
-
 /******************************************************
 
                     GALLERY STOPS HERE
 
 ******************************************************/
-
-
-
-
-
 
 /******************************************************
 
@@ -137,7 +158,201 @@ nav, a{
 
 ******************************************************/
 
+.wrapper {
+  background-color: #fff;
+}
 
+.image-width {
+  max-width: 55%;
+}
+
+.img-alpharet {
+  width: 30%;
+}
+
+.img-javander {
+  width: 50%;
+}
+
+.img-scrub {
+  width: 37%;
+}
+
+.img-vogue-body-cream {
+  width: 45%;
+}
+
+.img-vogue-perfume {
+  width: 38%;
+}
+
+.img-style-get-kit {
+  width: 44%;
+}
+
+.img-vogue-duo-kit {
+  width: 46.5%;
+}
+
+.img-vogue-sunbetter {
+  width: 37%;
+}
+
+.img-vogue-primer {
+  width: 49%;
+}
+
+h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+}
+.text-section {
+  background-color: #e5e5e5;
+}
+
+/* // Extra large devices (large desktops, 1200px and down) */
+@media (max-width: 1200px) {
+  .image-width {
+    max-width: 55%;
+  }
+
+  .img-alpharet {
+    width: 30%;
+  }
+
+  .img-javander {
+    width: 50%;
+  }
+
+  .img-scrub {
+    width: 37%;
+  }
+
+  .img-vogue-body-cream {
+    width: 45%;
+  }
+
+  .img-vogue-perfume {
+    width: 38%;
+  }
+
+  .img-style-get-kit {
+    width: 44%;
+  }
+
+  .img-vogue-duo-kit {
+    width: 46.5%;
+  }
+
+  .img-vogue-sunbetter {
+    width: 37%;
+  }
+
+  .img-vogue-primer {
+    width: 49%;
+  }
+
+  .img-beauty {
+    width: 350px;
+  }
+
+  .beauty-h2 {
+    width: 400px;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 46px;
+  }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+  .img-beauty {
+    width: 425px;
+  }
+
+  .beauty-h2 {
+    width: 400px;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+  }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 576px) {
+  .navbar-expand-sm .navbar-nav .nav-link {
+    font-size: 0.8rem;
+  }
+}
+
+/* // small devices (small screens, 799px and down) */
+
+@media (max-width: 799px) {
+  .navbar-expand-sm > .container,
+  .navbar-expand-sm > .container-fluid {
+    /* -ms-flex-wrap: nowrap; */
+    flex-wrap: wrap;
+  }
+}
+
+/* // small devices (small screens, 799px and down) */
+
+@media (max-width: 768px) {
+  .vogue-logo {
+    width: 30%;
+  }
+  .navbar-expand-sm .navbar-nav .nav-link {
+    font-size: 0.6rem;
+  }
+}
+
+/* // small devices (large desktops, 992px and down) */
+
+@media (max-width: 992px) {
+  .img-beauty {
+    width: 260px;
+  }
+
+  .beauty-h2 {
+    width: 300px;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 28px;
+  }
+}
+
+@media (max-width: 768px) {
+  .img-beauty {
+    width: 280px;
+    padding: 20px;
+  }
+
+  .beauty-h2 {
+    width: 280px;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 30px;
+  }
+
+  h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .wrapper {
+    /* margin: 0 auto; */
+    /* width: 80%; */
+    /* text-align: center; */
+  }
+}
 
 /******************************************************
 
@@ -145,20 +360,11 @@ nav, a{
 
 ******************************************************/
 
-
-
-
-
-
-
-
 /******************************************************
 
                     PRODUCTS DETAILS STARTS HERE
 
 ******************************************************/
-
-
 
 /******************************************************
 
@@ -166,17 +372,12 @@ nav, a{
 
 ******************************************************/
 
-
-
-
-
-
-
 /******************************************************
 
                     BUY NOW STARTS HERE
 
 ******************************************************/
+
 
 /* body{
     margin:0;
@@ -186,107 +387,95 @@ nav, a{
     background: #E5E5E5;
 } */
 
-.buy-now-container{
+
+.buy-now-container {
+  width: 100%;
+  position: absolute;
+  top: 270px;
+  transform: translateY(-50%);
+  text-align: center;
+  color: #ffffff;
+}
+
+.buy-now-container h1 {
+  font-size: 400px;
+  line-height: 469px;
+  margin: 0;
+  font-weight: 900;
+  letter-spacing: 20px;
+}
+
+.buy-now-container p {
+  height: 29px;
+  color: #000000;
+  font-family: 'Montserrat';
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.buy-now-container a {
+  text-decoration: none;
+  background: #393939;
+  color: #fff;
+  padding: 12px 24px;
+  display: inline-block;
+  font-size: 14px;
+  text-transform: uppercase;
+  transition: 0.4s;
+  width: 309.26px;
+  border-radius: 10px;
+}
+
+.buy-now-container a:hover {
+  background: #e55039;
+}
+
+@media all and (max-width: 768px) {
+  .buy-now-container {
     width: 100%;
     position: absolute;
-    top:270px;
+    top: 50%;
     transform: translateY(-50%);
     text-align: center;
-    color: #FFFFFF;
+    color: #ffffff;
+  }
 
-}
-
-.buy-now-container h1{
-    font-size: 400px;
-    line-height: 469px;
+  .buy-now-container h1 {
+    font-size: 80px;
     margin: 0;
-    font-weight:900;
-    letter-spacing: 20px;
-}
+    font-weight: 900;
 
-.buy-now-container p{
+    font-weight: 100;
+    letter-spacing: 0.21rem;
+  }
+
+  .buy-now-container a {
+    text-decoration: none;
+    background: #393939;
+    color: #fff;
+    padding: 2% 2%;
+    display: inline-block;
+    font-size: 16px;
+    text-transform: uppercase;
+    transition: 0.4s;
+    width: 30%;
+    border-radius: 10px;
+    margin: 2rem 2rem;
+  }
+
+  .buy-now-container p {
     height: 29px;
     color: #000000;
     font-family: 'Montserrat';
     font-weight: normal;
     font-size: 24px;
-    line-height: 29px;
+    line-height: o.5rem;
+    top: 30%;
+    margin: 2rem 2rem;
+    width: 90%;
+  }
 }
-
-
-
-
-
-.buy-now-container a{
-    text-decoration: none;
-    background: #393939;
-    color: #fff;
-    padding: 12px 24px;
-    display: inline-block;
-    font-size:14px;
-    text-transform: uppercase;
-    transition: 0.4s;
-    width: 309.26px;
-    border-radius: 10px;
-
- }
-
- .buy-now-container a:hover{
-     background: #e55039;
- }
-
-
-
- @media all and (max-width: 768px){
-    .buy-now-container{
-        width: 100%;
-        position: absolute;
-        top:50%;
-        transform: translateY(-50%);
-        text-align: center;
-        color: #FFFFFF;
-    
-    }
-    
-    .buy-now-container h1{
-
-        font-size: 80px;
-        margin: 0;
-        font-weight:900;
-
-        font-weight:100;
-        letter-spacing: 0.21rem;
-    }
-    
-    .buy-now-container a{
-        text-decoration: none;
-        background: #393939;
-        color: #fff;
-        padding: 2% 2%;
-        display: inline-block;
-        font-size:16px;
-        text-transform: uppercase;
-        transition: 0.4s;
-        width: 30%;
-        border-radius: 10px;
-        margin: 2rem 2rem;
-
-    }
-
-    .buy-now-container p{
-        height: 29px;
-        color: #000000;
-        font-family: 'Montserrat';
-        font-weight: normal;
-        font-size: 24px;
-        line-height: o.5rem;
-        top:30%;
-        margin: 2rem 2rem;
-        width:90%;
-    }
-
-    
- }
 
 /******************************************************
 
@@ -294,19 +483,11 @@ nav, a{
 
 ******************************************************/
 
-
-
-
-
-
-
 /******************************************************
 
                     ABOUT US STARTS HERE
 
 ******************************************************/
-
-
 
 /******************************************************
 
@@ -314,19 +495,11 @@ nav, a{
 
 ******************************************************/
 
-
-
-
-
-
-
 /******************************************************
 
                     CONTACT US STARTS HERE
 
 ******************************************************/
-
-
 
 /******************************************************
 
