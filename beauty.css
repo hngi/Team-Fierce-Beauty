@@ -1,7 +1,5 @@
 /******************************************************
-
                     HOME STARTS HERE
-
 ******************************************************/
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
 
@@ -56,14 +54,16 @@ a:hover {
 
 .b-f {
   min-height: 50vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
-    url('images/girl-.png');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.75)),
+    url('images/Screenshot_20200622-114938.png');
   color: #ffffff;
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
 }
 .b-f p {
   max-width: 15em;
+  font-size: 40px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -71,6 +71,16 @@ a:hover {
     max-width: 100%;
     height: auto;
     width: auto\9; /* ie8 */
+  }
+
+  .footer div.row {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .brand img {
+    width: 12em;
   }
 }
 @media only screen and (min-width: 800px) {
@@ -80,6 +90,7 @@ a:hover {
 }
 
 /******************************************************
+
 
                     HOME STOPS HERE
 
