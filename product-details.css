@@ -1,3 +1,4 @@
+
 * {
     padding: 0;
     margin: 0;
@@ -36,6 +37,10 @@ img {
     object-fit: cover;
 }
 
+a:hover {
+    color: #999;
+}
+
 
 /* NAVIGATION */
 
@@ -58,80 +63,41 @@ img {
     padding: 0 2em;
 }
 
-.top-image a {
-    font-size: 80% !important;
+.nav-link {
+    font-size: 100% !important;
 }
 
-.dropdown a {
-    font-size: 70% !important;
+.nav-link:hover {
+    color: #999;
 }
 
-#logo h1{
+.navbar-brand {
+    font-size: 200%;
+}
+
+.navbar-toggler-icon {
     color: white !important;
-    position: relative;
-    z-index: 0;
+    z-index: 3 !important;
+    position: relative !important;
+    font-size: 150%;
 }
 
-#hamburger {
-    display: none;
-}
-
-.full-nav {
-    margin-top: -2.3em;
-}
-
-.nav-links {
-    display: flex;
-    justify-content: space-between;
-}
-
-.left-nav a {
-    padding-left: 1em;
-}
-
-.right-nav a {
-    padding-right: 1em;
-}
-
-#search-icon {
-    color: white;
-    margin-left: 1em;
-}
-
-.top-icons {
-    z-index: 1;
-    position: relative;
+.overlay {
     color: white !important;
-    margin-right: 1.6em;
-    margin-top: 2em;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 3.5em;
 }
 
-.overlay-text {
-    position: relative;
-    text-align: center;
-    margin-top: 5.5em;
-    z-index: 1;
-    text-align: center;
-    color: white;
-    padding: 1em 3em;
-}
-
-.overlay-text p {
-    letter-spacing: .2em;
+.lead {
+    letter-spacing: .2em !important;
     font-size: 150% !important;
     font-weight: 500;
 }
 
-.overlay-text a {
-    padding: 1em;
-    border: 3px solid white;
+#shopBtn {
+    font-size: 150% !important;
     border-radius: 0;
-    margin-top: 1.5em;
-    font-size: 130% !important;
-    letter-spacing: .3em;
+    letter-spacing: .2em !important;
+    border: 3px solid white;
+    padding: 1em;
 }
 
 
@@ -307,26 +273,6 @@ footer hr {
 
 
 /* MEDIA QUERIES */
-
-@media(min-width: 768px) and (max-width: 1320px) {
-    #search-icon {
-        color: white;
-        margin-left: 1em;
-        margin-top: 1em;
-    }
-
-    .top-icons {
-        margin-right: 3.5em;
-    }
-
-}
-
-@media(min-width: 768px) and (max-width: 1010px) {
-    .full-nav {
-        margin-top: 0em;
-    }
-}
-
 @media(min-width: 768px) and (max-width: 1085px) {
     .img-div {
         height: 12em;
@@ -373,125 +319,53 @@ footer hr {
 }
 
 @media(max-width: 768px) {
+
+    .navbar-brand {
+        font-size: 130%;
+    }
+
+    .navbar-toggler-icon {
+        font-size: 120%;
+    }
+    
+
+    .nav-link {
+        padding-left: 0em !important;
+    }
+
+    .overlay {
+        color: white !important;
+        width: 100% !important;
+    }
+    
+    .lead {
+        letter-spacing: .1em !important;
+        font-size: 100% !important;
+        font-weight: 500;
+    }
+    
+    #shopBtn {
+        font-size: 100% !important;
+        border-radius: 0;
+        letter-spacing: .2em !important;
+        border: 3px solid white;
+        padding: 1em;
+    }
+
     .top-image {
-        height: 40vh;
+        height: 60vh;
         background: url('./images/bg-small.png');
         background-position: 55% 52%;
-    }
-
-    #hamburger {
-        display: block;
-        color: white !important;
-        z-index: 1;
-        position: relative;
-        margin-left: auto;
-        top: 1.2em;
-        font-size: 150%;
-    }
-
-    #hamburger:hover {
-        color: #444 !important;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     .top-image-content {
         padding: 0em 1em;
     }
 
-    #logo h1{
-        font-size: 200%;
-        margin: 0 0;
-    }
-
-    .dropdown a {
-        font-size: 80% !important;
-    }
-
-    .overlay-text {
-        position: relative;
-        text-align: center;
-        margin-top: 0em;
-        z-index: 1;
-        text-align: center;
-        color: white;
-        padding: 1em 1em;
-    }
-    
-    .overlay-text p {
-        letter-spacing: 0.1em;
-        font-size: 80% !important;
-        font-weight: 500;
-    }
-    
-    .overlay-text a {
-        padding: 1em;
-        border: 3px solid white;
-        border-radius: 0;
-        margin-top: 1.5em;
-        font-size: 90% !important;
-        letter-spacing: .3em;
-    }
-
     .top-image {
         position: relative;
-    }
-    
-
-    .nav-small {
-        position: absolute;
-        display: flex !important;
-        flex-direction: column;
-        justify-content: center;
-        margin: 0 !important;
-        height: 100%;
-        width: 80%;
-        top: 0em;
-        text-align: center;
-        background: #333;
-        z-index: 3;
-    }
-
-    .nav-links a {
-        padding: 1em;
-        font-size: 100%;
-    }
-
-    .nav-links {
-        display: none;
-    }
-
-    .left-nav {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .right-nav {
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .left-nav a {
-        padding-left: 0em;
-    }
-    
-    .right-nav a {
-        padding-right: 0em;
-    }
-
-    #logo {
-        margin: 0 0;
-    }
-
-    .icon-links {
-        position: relative;
-    }
-
-    .dropdown {
-        margin-top: .6em;
-        margin-left: .6em;
-    }
-
-    #search-icon {
-        margin-top: 1em;;
     }
 
     .padding {
@@ -500,6 +374,20 @@ footer hr {
 
     .padding-footer {
         padding: 1em 1em;
+    }
+
+    .lead {
+        letter-spacing: .2em !important;
+        font-size: 110% !important;
+        font-weight: 500;
+    }
+    
+    #shopBtn {
+        font-size: 100% !important;
+        border-radius: 0;
+        letter-spacing: .2em !important;
+        border: 3px solid white;
+        padding: 1em;
     }
 
     .bestseller-cards {
@@ -561,8 +449,5 @@ footer hr {
         text-align: center;
     }
 
-    .top-icons {
-        display: none;
-    }
 }
 
