@@ -109,6 +109,8 @@ a:hover {
   font-size: 40px;
 }
 
+}
+
 @media only screen and (max-width: 600px) {
   .gallery img {
     max-width: 100%;
@@ -346,12 +348,6 @@ h2 {
     font-size: 20px;
     line-height: 28px;
   }
-
-  .wrapper {
-    /* margin: 0 auto; */
-    /* width: 80%; */
-    /* text-align: center; */
-  }
 }
 
 /******************************************************
@@ -365,6 +361,446 @@ h2 {
                     PRODUCTS DETAILS STARTS HERE
 
 ******************************************************/
+
+.image {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover;
+  display: block !important;
+}
+
+#body {
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  font-size: 100%;
+  overflow-x: hidden;
+}
+
+#body a {
+  color: white;
+  text-decoration: none;
+}
+
+.padding {
+  padding: 1em 7em;
+}
+
+.padding-footer {
+  padding: 1em 12em;
+}
+
+#body a:hover {
+  color: #999;
+}
+
+
+/* NAVIGATION */
+
+.top-image {
+  height: 60vh;
+  background: url('./images/IMG_0653.png');
+  background-position: 55% 52%;
+}
+
+.top-image:before {
+  content: "";
+  position: absolute;
+  left: 0; right: 0;
+  top: 0; bottom: 0;
+  background: rgba(0,0,0,.5);
+  z-index: 0;
+}
+
+.top-image-content {
+  padding: 0 2em;
+}
+
+.top-image-content .nav-link {
+  font-size: 100% !important;
+}
+
+.top-image-content .nav-link:hover {
+  color: #999;
+}
+
+.top-image-content .navbar-brand {
+  font-size: 200%;
+}
+
+.top-image-content .navbar-toggler-icon {
+  color: white !important;
+  z-index: 3 !important;
+  position: relative !important;
+  font-size: 150%;
+}
+
+.overlay {
+  color: white !important;
+}
+
+.overlay .lead {
+  letter-spacing: .2em !important;
+  font-size: 150% !important;
+  font-weight: 500;
+}
+
+#shopBtn {
+  font-size: 150% !important;
+  border-radius: 0;
+  letter-spacing: .2em !important;
+  border: 3px solid white;
+  padding: 1em;
+  background: transparent;
+}
+
+#shopBtn:hover {
+  color: #222 !important;
+  background: white !important;
+}
+
+
+/* CARDS */
+#best-sellers {
+  position: relative;
+  z-index: 1;
+  background-color: #eeebeb !important;
+  padding-top: 2em !important;
+}
+
+#best-sellers h2 {
+  font-weight: 700;
+}
+
+#best-sellers hr {
+  border-width: 2px;
+  margin-top: 3em !important;
+}
+
+.bestseller-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1.5em;
+}
+
+.img-div {
+  height: 15.625em;
+}
+
+.text-div {
+  background: white !important;
+}
+
+.text-div p {
+  margin: 0 !important;
+  padding: 0em .5em !important;
+}
+
+.text-div span {
+  font-size: 65%;
+  position: relative;
+  top: -0.3em;
+}
+
+.padding p {
+  font-size: 90%;
+}
+
+.dot {
+  width: 15px;
+  height: 15px;
+  background: white !important;
+  opacity: 0.6;
+  shape-outside: circle();
+  clip-path: circle();
+}
+
+.dots {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1em !important;
+  width: 10%;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.dots .active {
+  opacity: 1.0;
+}
+
+
+/* BEST WEEKS */
+#best-weeks {
+  position: relative;
+  z-index: 1;
+  background-color: #eeebeb !important;
+  padding-top: 0em !important;
+}
+
+#best-weeks h2 {
+  font-weight: 700;
+}
+
+.best-weeks-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1.5em;
+}
+
+.img-weeks-div {
+  height: 28.125em;
+}
+
+#best-weeks hr {
+  border-width: 2px;
+  margin-top: 3em !important;
+}
+
+
+/* FAVORITES SECTION */
+#favorites {
+  position: relative;
+  z-index: 1;
+  background-color: #eeebeb !important;
+  padding-top: 0em !important;
+  padding-bottom: 7em !important;
+}
+
+#favorites h2 {
+  font-weight: 700;
+}
+
+.favorites-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1.5em;
+}
+
+.img-favorites-div {
+  height: 18em;
+}
+
+
+
+/* FOOTER */
+#main-footer {
+  position: relative;
+  z-index: 1;
+  background-color: white !important;
+  padding-top: 0em !important;
+  color: black !important;
+}
+
+#main-footer a {
+  color: #333 !important;
+  font-size: 80% !important;
+}
+
+.contact {
+  font-size: 80% !important;
+}
+
+#main-footer hr {
+  border: 1px solid silver;
+}
+
+
+#social {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#social p {
+  align-self: center;
+}
+
+#sub-footer a {
+  color: #666 !important;
+}
+
+.fa-twitter:hover, .fa-facebook-f:hover, .fa-instagram:hover {
+  color: #fff !important;
+  background: #000 !important;
+}
+
+
+/* MEDIA QUERIES */
+@media(min-width: 768px) and (max-width: 1085px) {
+  .img-div {
+      height: 12em;
+  }
+
+  .img-favorites-div {
+      height: 15em;
+  }
+
+  .padding-footer {
+      padding: 1em 8em;
+  }
+
+  .img-weeks-div {
+      height: 26.125em;
+  }
+}
+
+@media(min-width: 768px) and (max-width: 894px) {
+  .img-div {
+      height: 9em;
+  }
+
+  .img-favorites-div {
+      height: 11em;
+  }
+
+  .padding-footer {
+      padding: 1em 6em;
+  }
+
+  .img-weeks-div {
+      height: 21.125em;
+  }
+
+  #sub-footer a {
+      font-size: 75% !important;
+  }
+
+}
+
+@media(max-width: 768px) {
+
+  .top-image-content .navbar-brand {
+      font-size: 130%;
+  }
+
+  .top-image-content .navbar-toggler-icon {
+      font-size: 120%;
+  }
+  
+
+  .top-image-content .nav-link {
+      padding-left: 0em !important;
+  }
+
+  .overlay {
+      color: white !important;
+      width: 100% !important;
+  }
+  
+  .overlay .lead {
+      letter-spacing: .1em !important;
+      font-size: 100% !important;
+      font-weight: 500;
+  }
+  
+  #shopBtn {
+      font-size: 100% !important;
+      border-radius: 0;
+      letter-spacing: .2em !important;
+      border: 3px solid white;
+      padding: 1em;
+  }
+
+  .top-image {
+      height: 60vh;
+      background: url('./images/bg-small.png');
+      background-position: 55% 52%;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+  .top-image-content {
+      padding: 0em 1em;
+  }
+
+  .top-image {
+      position: relative;
+  }
+
+  .padding {
+      padding: 1em 1em;
+  }
+
+  .padding-footer {
+      padding: 1em 1em;
+  }
+
+  .overlay .lead {
+      letter-spacing: .2em !important;
+      font-size: 110% !important;
+      font-weight: 500;
+  }
+  
+  #shopBtn {
+      font-size: 100% !important;
+      border-radius: 0;
+      letter-spacing: .2em !important;
+      border: 3px solid white;
+      padding: 1em;
+  }
+
+  .bestseller-cards {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 1.5em;
+  }
+
+  .best-weeks-cards {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 1.5em;
+  }
+
+  .favorites-cards {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 1.5em;
+  }
+
+  #best-weeks h2 {
+      font-size: 140%;
+  }
+
+  #best-sellers h2 {
+      font-size: 140%;
+  }
+
+  #favorites h2 {
+      font-size: 140%;
+  }
+
+  #sub-footer .col-12 {
+      display: flex;
+      flex-direction: column;
+  }
+
+  #sub-footer a {
+      padding: 1em 0;
+      text-align: center;
+  }
+
+  #sub-footer .pl-4 {
+      padding-left: 0 !important;
+  }
+
+  #main-footer {
+      text-align: center;
+  }
+
+  #social {
+      display: flex;
+      flex-direction: column;
+      margin-left: .5em;
+  }
+  
+  #social p {
+      align-self: center;
+      text-align: center;
+  }
+
+}
+
 
 /******************************************************
 
