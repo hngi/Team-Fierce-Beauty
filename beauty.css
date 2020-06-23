@@ -52,6 +52,49 @@ a:hover {
   height: 20em !important;
 }
 
+
+.b-f{
+    min-height: 50vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.75)), url("images/Screenshot_20200622-114938.png");
+    color: #ffffff;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+.b-f p {
+    max-width: 15em;
+    font-size: 40px;
+}
+
+@media only screen and (max-width: 798px) {
+    .gallery img {
+        max-width: 100%;
+        height: auto;
+        width: auto\9; /* ie8 */
+    }
+
+    .l-info{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+
+    .r-info{
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer div.row{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .brand img{
+        width: 12em;
+    }
+
 .b-f {
   min-height: 50vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.75)),
@@ -71,6 +114,7 @@ a:hover {
     max-width: 100%;
     height: auto;
     width: auto\9; /* ie8 */
+
   }
 
   .footer div.row {
@@ -334,13 +378,15 @@ h2 {
 
 ******************************************************/
 
-body {
-  margin: 0;
-  padding: 0;
-  font-family: 'montserrat', sans-serif;
-  min-height: 100vh;
-  background: #e5e5e5;
-}
+
+/* body{
+    margin:0;
+    padding:0;
+    
+    min-height: 100vh;
+    background: #E5E5E5;
+} */
+
 
 .buy-now-container {
   width: 100%;
