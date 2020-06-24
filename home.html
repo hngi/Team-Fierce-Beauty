@@ -3,26 +3,358 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/beauty.css">
+    <!-- bootstrap css -->
+  <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="beauty.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <title>Home</title>
 </head>
 <body>
-    <!------------------------------------------ HEADER-------------------------------->
+    <!------------------------------------------ Nav-------------------------------->
+ <!-- nav element -->
+ <nav class="navbar navbar-expand-sm">
+    <div class="container d-flex">
+      <a class="brand" href="home.html"><img class="img-fluid" src="images/Vogue-Styles.svg"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <i class="fa fa-bars" style="font-size:36px;color: #ffffff;"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item mx-3">
+            <a class="nav-link" href="home.html">Home</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link" href="products.html">Products</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link" href="product-details.html">Product Details</a>
+          </li>  
+          <li class="nav-item mx-3">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>   
+          <li class="nav-item mx-3">
+            <a class="nav-link" href="buy-now.html">Buy Now</a>
+          </li> 
+          <li class="nav-item mx-3">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link" href="contact">Contact</a>
+          </li> 
+        </ul>
+      </div>
+      </div>
+    </nav>
+  <!-- end of nav element -->
 
+    <!------------------------------------------ Nav---------------------------------->
+<!-- header section -->
+  <header class="header">
+    <div class="container-fluid">
+        <div class="row height-max index-header d-flex align-items-end">
+            <div class="mx-auto">
+                <h1>Home</h1>
+            </div>
+            
+        </div>
+        <div class="sub-head d-flex flex-column justify-content-center
+        align-items-center text-center my-5 px-4">
+            <p>Make up is self confidence applied directly to the face.
+                Beauty is power, and makeup is something that really enhannces that
+                it is a woman’s secret
+                </p>
+             <button type="button" class="btn btn-dark text-uppercase my-5">View
+             Products</button>
+        </div>
+    </div>
+  </header>
+  <!-- End of header section -->
 
+  <!-- about section -->
+  <section class="about my-5 bg-light">
+    <div class="container">
+      <!-- img row -->
+        <div class="row">
+            <div class="col-10 mx-auto col-lg-6 img-section my-5">
+                <div class="">
+                <img src="images/Rectangle-79.png" alt="suites" class="img-fluid"/>
+                </div>
+            </div>
+            <div class="col-10 mx-auto col-lg-6 img-section my-3">
+                <div class="d-flex justify-content-center text-center
+                align-items-center flex-column h-100">
+                <h1>About Us</h1>
+                    <p class="">For more than 10 years we have been the leading 
+                        light in the beauty industry.
+                        We are not dazed by these chalenges we face 
+                        they define us. At Styles, we define you. </p>
+                    <button type="button" class="btn btn-dark my-5 text-uppercase">
+                        read more
+                    </button>
+                </div>
+            </div>
+          
+          <!-- end of row -->
+        </div>
+    </div>
+  </section>
 
+ <!--end about section-->
 
+ <!-- products section -->
+ <section class="about my-5">
+    <div class="container">
+        <!-- ...section title -->
+        <div class="row">
+            <div class="col d-flex flex-wrap justify-content-center my-5">
+                <h2 class="font-weight-bold align-items-center mx-1">Products
+                </h2>
+            </div>
+        </div>
+        <!-- End of section title -->
+      <!-- img row -->
+      <div class="row">
+        <div class="col-10 mx-auto col-lg-4 img-section my-3">
+            <div class="card">
+                <img class="card-img-top img-fluid" src="images/kindpng_433931.png" alt="Card
+                image" style="width:100%">
+                <div class="card-body text-center">
+                  <h4 class="card-text text-uppercase font-weight-bold
+                  mt-5">vogue duo kit</h4>
+                  <button type="button" class="btn btn-dark my-1 text-uppercase">
+                    shop now
+                </button>
+                </div>
+            </div>
+        </div>
+        <div class="col-10 mx-auto col-lg-4 img-section my-3">
+            <div class="card">
+                <img class="card-img-top img-fluid" src="images/body-scrub-breedlove_1024x1024@2x.png" alt="Card
+                image" style="width:100%">
+                <div class="card-body text-center">
+                    <h4 class="card-text text-uppercase font-weight-bold
+                    mt-5">vogue duo kit</h4>
+                    <button type="button" class="btn btn-dark my-1 text-uppercase">
+                      shop now
+                  </button>
+                </div>
+            </div>
+        </div>
+        <div class="col-10 mx-auto col-lg-4 img-section my-3">
+            <div class="card">
+                <img class="card-img-top img-fluid" src="images/A-Team-Duo-540x608.png" alt="Card
+                image" style="width:100%">
+                <div class="card-body text-center">
+                    <h4 class="card-text text-uppercase font-weight-bold
+                    mt-5">vogue duo kit</h4>
+                    <button type="button" class="btn btn-dark my-1 text-uppercase">
+                      shop now
+                  </button>
+                </div>
+            </div>
+        </div>
+          
+          <!-- end of row -->
+      </div>
+    </div>
+  </section>
 
-    <!------------------------------------------ MAIN---------------------------------->
+ <!--end products section-->
 
+ <!-- products details section -->
+ <section class="about my-5">
+    <div class="container">
+        <!-- ...section title -->
+        <div class="row  my-5">
+            <div class="col d-flex flex-column text-center align-items-center
+            justify-content-center my-5 px-5">
+                <h2 class="font-weight-bold">Products Details
+                </h2>
+                <p>Discover the need to know more about vogue style products</p>
+            </div>
+        </div>
+        <!-- End of section title -->
+      <!-- img row -->
+      <div class="row">
+        <div class="col-10 mx-auto col-lg-6 img-section my-3 p-0">
+            <div class="card">
+                <img class="card-img-top img-fluid" src="images/image7.jpeg" alt="Card
+                image" style="width:100%">
+                <div class="card-body text-center">
+                  <h4 class="card-text text-uppercase font-weight-bold
+                  mt-5">vogue coco oil</h4>
+                  <p>Find your favourite perfumeor accentuate your stylewith a
+                  new scent from our fragrance brand</p>
+                  <button type="button" class="btn btn-dark my-1 text-uppercase mb-5">
+                    shop now
+                </button>
+                </div>
+            </div>
+        </div>
+        <div class="col-10 mx-auto col-lg-6 img-section m-3 p-0">
+            <div class="card">
+                <img class="card-img-top img-fluid" src="images/image8.jpeg" alt="Card
+                image" style="width:100%">
+                <div class="card-body text-center">
+                    <h4 class="card-text text-uppercase font-weight-bold
+                    mt-5">vogue lipstick</h4>
+                    <p>Buy your favourite body soap and cream which contains all
+                    the essentials to gives your skin the perfect glow</p>
+                    <button type="button" class="btn btn-dark my-1 text-uppercase mb-5">
+                      shop now
+                  </button>
+                </div>
+            </div>
+        </div>
+        
+          
+          <!-- end of row -->
+      </div>
+    </div>
+  </section>
 
+ <!--end products details section-->
 
-
-
+ <!-- Gallery section -->
+ <section class="gallery bg-light">
+    <div class="container">
+        <!-- ...section title -->
+        <div class="row  my-5">
+            <div class="col d-flex flex-column tex-center align-items-center
+            justify-content-center">
+                <h2 class="font-weight-bold align-items-center my-5">Gallery
+                </h2>
+                
+            </div>
+        </div>
+        <!-- End of section title -->
+      <!-- img row -->
+      <div class="row">
+        <div class="col-10 mx-auto d-flex flex-column col-lg-4 img-section my-3 p-0">
+            <div class="">
+            <img src="images/Rectangle-112.png" alt="suites" class=""
+            />
+            </div>
+            <div class="">
+                <img src="images/girl-237871_1920 1.png" alt="suites"
+                class=""/>
+            </div>
+        </div>
+        <div class="col-10 mx-auto col-lg-8 img-section my-3 p-0">
+            <div class="">
+            <img src="images/Rectangle-111.png" alt="suites" class=""/>
+            </div>
+        </div>
+        <button type="button" class="btn btn-dark my-5 text-uppercase mx-auto
+         ">
+                read more
+            </button>
+          <!-- end of row -->
+      </div>
+    </div>
     
-    <!------------------------------------------ FOOTER-------------------------------->
+  </section>
 
+ <!--end of Gallery section-->
 
-    <script src="/beauty.js"></script>
+ <!-- b-f sections -->
+ <header class="">
+    <div class="container-fluid">
+        <div class="row height-max b-f  align-items-center text-center">
+            <div class="mx-auto py-5 px-5">
+                <p class=" d-flex text-center justify-content-center ">Get Vogue style
+                products at an affordable rate</p>
+            </div>
+            
+        </div>
+    </div>
+  </header>
+  <!-- End of b-f section -->
+
+<!-- contact section -->
+  <section class=" bg-light">
+    <div class="col-10 mx-auto col-lg-10 img-section">
+        <div class="d-flex justify-content-center text-center
+        align-items-center flex-column  px-5">
+            <div class="my-5"></div>
+            <h1 class="my-5">Catalogue Vogue Style</h1>
+            <h2 class="text-uppercase">general enquiries</h2>
+            <p class="">Have a question or just want to say hello </p>
+            <h5>info@explorenet.com</h5>
+            <p>(205) 555-0112</p>
+            <h2 class="text-uppercase mb-3">our location</h2>
+            <p>2464, Royal Ln. Messa</p>
+            <p>New Jersey, 45463</p>
+            <button type="button" class="btn btn-dark mb-5 text-uppercase">
+                get directions
+            </button>
+        </div>
+    </div>
+</section>
+<!-- end of contact section -->
+  
+<!------------------------------------------ FOOTER-------------------------------->
+ <!-- footer -->
+ <footer class="footer py-5">
+  <div class="container text-md-left">
+      <div class="row ft-info">              
+              <div class="slide col-10 col-md-6 mb-md-0 mb-3" data-aos="fade-up" data-aos-delay="200">
+                  <h4 class="text-uppercase font-weight-bold">vogue styles</h4>
+                  <ul class="list-unstyled">
+                      <li>
+                       Group
+                      </li>
+                      <li>
+                        Brand & Product
+                       </li>
+                       <li>
+                        Commitment
+                       </li>
+                       <li>
+                        Technology
+                       </li>
+                       <li>
+                        Reasearch
+                       </li>
+                       <li>
+                    </ul>
+              </div>
+              <div class="slide col-10 col-md-3 mb-md-0 mb-3" data-aos="fade-up" data-aos-delay="250">
+                  <h6 class="text-uppercase">reach us</h6>
+                  <ul class="list-unstyled">
+                      <li>
+                        <i class="fa fa-phone mr-5">+234-806-658-9021</i>
+                      </li>
+                    </ul>
+              </div>
+              <div class="footer-btn col-10 col-md-3 mt-md-0 mb-3 clearfix" data-aos="fade-up" data-aos-delay="250">
+                <h6 class="text-uppercase">Suppliers Investors & Shareholders</h6>
+                    <h6 class="mt-5 mb-2">Stay in Touch</h6>
+                  <i class="fa fa-facebook-square  mx-2" style="font-size:36px"></i>
+                  <i class="fa fa-twitter-square mx-2" style="font-size:36px"></i>
+                  <i class="fa fa-instagram mx-2" style="font-size:36px"></i>
+              </div>
+          <!-- </div> -->
+      </div>
+  </div>
+  <!-- Copyright -->
+  <div class=" footer-copyright border border-bottom-0
+  border-right-0 border-left-0 text-left py-3">
+  </div>
+  <div class="container d-flex flex-row footer-copyright">
+    <small class="text-muted pr-5">© 2020 Copyright:</small>
+    <small class="text-muted px-5">Terms of use</small>
+    <small class="text-muted px-5">Provacy Policy</small>
+  </div>
+  <!-- Copyright -->
+</footer>
+
+    <script src="beauty.js"></script>
+    <script src="bootstrap/jquery-3.3.1.min.js"></script>
+    <script src="bootstrap/bootstrap.bundle.min.js"></script>
 </body>
 </html>
